@@ -1,0 +1,76 @@
+{
+    "ver":"5.0",
+    "tag":"hipsuser",
+    "data":[
+        {
+            "id":1,
+            "power":1,
+            "name":"Chrome-Default",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"?:\\Users\\*\\AppData\\Local\\*\\Chrome\\User Data\\Default\\*"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "power":1,
+            "name":"Default-History",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"*\\User Data\\Default\\History"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "power":1,
+            "name":"Firefox-Profiles",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"?:\\Users\\*\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\*"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "power":1,
+            "name":"Say No To Tencent",
+            "procname":"*\\Tencent\\*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"*"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "power":1,
+            "name":"User Data-Default",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":15,
+                    "res_path":"?:\\Users\\*\\AppData\\Local\\*\\User Data\\Default\\*"
+                }
+            ]
+        }
+    ]
+}
